@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Template</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Brand</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">Link</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">One more separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	      <form class="navbar-form navbar-left">
+	        <div class="form-group">
+	          <input type="text" class="form-control" placeholder="Search">
+	        </div>
+	        <button type="submit" class="btn btn-default">Submit</button>
+	      </form>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Link</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<header>
+		<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+		  
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+		    <div class="item active">
+		      <img src="imagenes/slider/1.jpg" alt="...">
+		    </div>
+		    <div class="item">
+		      <img src="imagenes/slider/2.jpg" alt="...">
+		      <div class="carousel-caption">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="wrapper-texto">
+			<div class="container">
+				<div class="row">
+					<h1>Soy el título</h1>
+					<h3>Soy el subtítulo</h3>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<!-- Header estático
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="text-uppercase">Bootstrap experience</h1>
+					<h3>Creando un sitio en Bootstrap</h3>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Contactarnos</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	-->
+
+	<section id="curso">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Sobre el curso</h2>
+					<ul class="social">
+						<li>
+							<a href="#">
+								<span class="ion-social-facebook"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="ion-social-twitter"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="ion-social-instagram"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="ion-social-linkedin"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<p class="destacado">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="frase">
+		<div class="container">
+			<div class="row">
+					<blockquote>
+					  <p>¿Por qué? No hay porqué.</p>
+					  <footer><cite title="Source Title">China</cite></footer>
+					</blockquote>
+				</article>
+			</div>
+		</div>
+	</section>
+	
+
+	<!-- Modals-->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Contacto</h4>
+	      </div>
+	      <div class="modal-body">
+	        
+	        <form class="form-horizontal">
+
+				  <div class="form-group">
+				    <label for="nombre" class="col-sm-2 control-label">Nombre</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control" id="nombre" placeholder="Ingresá tu nombre" required>
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <label for="apellido" class="col-sm-2 control-label">Apellido</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control" id="apellido" placeholder="Ingresá tu apellido" required>
+				    </div>
+				  </div>
+
+				<div class="form-group">
+				    <label for="email" class="col-sm-2 control-label">Email</label>
+				    <div class="col-sm-10">
+				      <input type="email" class="form-control" id="email" placeholder="Ingresá tu email" required>
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <label for="telefono" class="col-sm-2 control-label">Teléfono</label>
+				    <div class="col-sm-10">
+				      <input type="tel" class="form-control" id="telefono" placeholder="Ingresá tu teléfono" required>
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				  	<label for="comentarios" class="col-sm-2 control-label">Comentarios</label>
+				  	<div class="col-sm-10">
+				  		 <textarea class="form-control" rows="4" placeholder="Comentarios" required></textarea>
+				  	</div>
+				  </div>
+				 
+
+				  <div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <div class="checkbox">
+				        <label>
+				          <input type="checkbox" required> Acepto los terminos y condiciones
+				        </label>
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <button type="submit" class="btn btn-danger btn-lg btn-block" required>Enviar</button>
+				    </div>
+				  </div>
+
+				</form>
+
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<section id="mapa">
+	    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.090202699345!2d-58.3716462!3d-34.60188050000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaccd506ea71%3A0xfe6e5aa17ee1002!2sLavalle+333%2C+C1047AAG+CABA!5e0!3m2!1ses-419!2sar!4v1527030286457" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script
+	<script src="https://unpkg.com/ionicons@4.1.1/dist/ionicons.js"></script>
+</body>
+</html>

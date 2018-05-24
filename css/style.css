@@ -13,13 +13,16 @@ h1, h2, h3, h4, h5, h6 {
 body, html {
   height: 100%; }
 
-.btn {
-  border-radius: 0; }
+/* 
+.btn{
+	border-radius: 0;
+}
 
-.btn-primary {
-  background: limegreen; }
+.btn-primary{
+	background: limegreen;
+}
 
-/* Header Est├ítico
+Header Est├ítico
 
 header{
 	height: 100%;
